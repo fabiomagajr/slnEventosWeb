@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewData["Title"] = "Eventos Acadêmicos";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h1>@ViewData["Title"]</h1>
+            <p class="lead">Confira os próximos eventos acadêmicos disponíveis.</p>
+        </div>
+        <div class="col-md-4 text-right d-flex justify-content-end align-items-center">
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Create" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i> Novo Evento
+                </a>
+            }
+        </div>
+    </div>
+
+    <!-- Filtros (opcional) -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <form method="get" class="row">
+                        <div class="col-md-4 mb-2">
+                            <label for="categoria">Categoria</label>
+                            <select id="categoria" name="categoriaId" class="form-control">
+                                <option value="">Todas as categorias</option>
+                                <option value="1">Palestras</option>
+                                <option value="2">Workshops</option>
+                                <option value="3">Seminários</option>
+                                <option value="4">Congressos</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <label for="dataInicio">A partir de</label>
+                            <input type="date" id="dataInicio" name="dataInicio" class="form-control" />
+                        </div>
+                        <div class="col-md-4 d-flex align-items-end">
+                            <button type="submit" class="btn btn-secondary">
+                                <i class="fas fa-search"></i> Filtrar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lista de Eventos -->
+    <div class="row">
+        @foreach (var item in Model ?? Enumerable.Range(1, 6).Select(i => new prjEventosWeb.Models.Evento
+         {
+             Id = i,
+             Nome = $"Evento Acadêmico {i}",
+             Descricao = $"Descrição do evento acadêmico de exemplo número {i}. Este é um texto genérico para testes.",
+             DataInicio = DateTime.Now.AddDays(i * 2),
+             DataFim = DateTime.Now.AddDays(i * 2 + 1),
+             Local = $"Auditório {(char)('A' + i % 3)}",
+             Vagas = 30 + (i * 5),
+             ImagemUrl = "/images/placeholder.jpg",
+             CategoriaId = (i % 4) + 1
+         }))
+        {
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(item.ImagemUrl))
+                    {
+                        <img src="@item.ImagemUrl" class="card-img-top" alt="@item.Nome" style="height: 180px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <div class="card-img-top bg-light d-flex align-items-center justify-content-center" style="height: 180px;">
+                            <i class="fas fa-calendar-alt fa-4x text-secondary"></i>
+                        </div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Nome</h5>
+                        <p class="card-text text-muted">
+                            <i class="far fa-calendar-alt"></i> @item.DataInicio.ToString("dd/MM/yyyy HH:mm")
+                        </p>
+                        <p class="card-text">
+                            @(item.Descricao?.Length > 100 ? item.Descricao.Substring(0, 97) + "..." : item.Descricao)
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge badge-primary">
+                                @(item.CategoriaId switch
+                                {
+                                    1 => "Palestras",
+                                    2 => "Workshops",
+                                    3 => "Seminários",
+                                    4 => "Congressos",
+                                    _ => "Outros"
+                                })
+                            </span>
+                            <span class="text-muted small">@item.Vagas vagas</span>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white border-top-0">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary btn-block">
+                            Ver Detalhes
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Paginação (opcional) -->
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <nav aria-label="Navegação de página">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Próximo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Scripts opcionais para interatividade extra
+        $(document).ready(function () {
+            // Exemplo de tooltip para mostrar vagas
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+}

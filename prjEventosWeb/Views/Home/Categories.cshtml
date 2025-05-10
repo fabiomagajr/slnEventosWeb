@@ -1,0 +1,254 @@
+﻿@{
+    ViewData["Title"] = "Categorias";
+}
+
+@section Hero {
+    <div class="hero-section" style="background: linear-gradient(135deg, #2980b9, #8e44ad);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-text">
+                    <h1>Categorias de Eventos</h1>
+                    <p>Explore nossa ampla variedade de eventos acadêmicos organizados por categoria para encontrar exatamente o que você procura.</p>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block text-center">
+                    <!-- Imagem ilustrativa (placeholder) - você adicionará depois -->
+                    <img src="/img/tiposEventos.png" alt="Categorias de eventos" class="img-fluid rounded shadow" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="container my-5">
+    <!-- Introdução à página -->
+    <div class="row mb-5">
+        <div class="col-lg-8 mx-auto text-center">
+            <h2 class="mb-3">Encontre o Evento Perfeito</h2>
+            <p class="lead">Nossos eventos são organizados em categorias para facilitar sua busca. Clique em uma categoria para ver todos os eventos relacionados.</p>
+        </div>
+    </div>
+
+    <!-- Categorias Principais com Cards Grandes -->
+    <div class="row g-4 mb-5">
+        <!-- Palestras -->
+        <div class="col-md-6">
+            <div class="card border-0 shadow h-100 overflow-hidden">
+                <div class="position-relative">
+                    <!-- Imagem ilustrativa (placeholder) - você adicionará depois -->
+                    <img src="/img/palestras.png" class="card-img-top" alt="Palestras">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));">
+                        <div class="position-absolute bottom-0 start-0 p-4 text-white">
+                            <h3 class="mb-2">Palestras</h3>
+                            <p>Apresentações de especialistas sobre temas relevantes para o mundo acadêmico.</p>
+                            <a href="#" class="btn btn-light">Ver Palestras</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Workshops -->
+        <div class="col-md-6">
+            <div class="card border-0 shadow h-100 overflow-hidden">
+                <div class="position-relative">
+                    <!-- Imagem ilustrativa (placeholder) - você adicionará depois -->
+                    <img src="/img/workshops.jpg" class="card-img-top" alt="Workshops">
+                    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));">
+                        <div class="position-absolute bottom-0 start-0 p-4 text-white">
+                            <h3 class="mb-2">Workshops</h3>
+                            <p>Atividades práticas e interativas para desenvolver habilidades específicas.</p>
+                            <a href="#" class="btn btn-light">Ver Workshops</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categorias Secundárias -->
+    <div class="row g-4 mb-5">
+        <!-- Conferências -->
+        <div class="col-lg-4 col-md-6">
+            <div class="category-item h-100">
+                <div class="category-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="category-title">Conferências</h3>
+                <p>Eventos de grande porte com múltiplos palestrantes e atividades ao longo de vários dias.</p>
+                <ul class="list-unstyled mt-3">
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Conferências Nacionais</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Conferências Internacionais</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Simpósios</li>
+                </ul>
+                <a href="#" class="btn btn-event mt-3">Explorar</a>
+            </div>
+        </div>
+        <!-- Feiras Acadêmicas -->
+        <div class="col-lg-4 col-md-6">
+            <div class="category-item h-100">
+                <div class="category-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 class="category-title">Feiras Acadêmicas</h3>
+                <p>Exposições de projetos e pesquisas desenvolvidos por estudantes e professores.</p>
+                <ul class="list-unstyled mt-3">
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Feiras de Ciências</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Exposições de TCC</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Mostra de Projetos</li>
+                </ul>
+                <a href="#" class="btn btn-event mt-3">Explorar</a>
+            </div>
+        </div>
+        <!-- Cursos -->
+        <div class="col-lg-4 col-md-6">
+            <div class="category-item h-100">
+                <div class="category-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3 class="category-title">Cursos</h3>
+                <p>Programas de formação com encontros regulares para aprofundamento em temas específicos.</p>
+                <ul class="list-unstyled mt-3">
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Cursos de Extensão</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Minicursos</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Cursos Online</li>
+                </ul>
+                <a href="#" class="btn btn-event mt-3">Explorar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mais Categorias -->
+    <h2 class="mb-4">Mais Categorias</h2>
+    <div class="row g-4">
+        <!-- Semanas Acadêmicas -->
+        <div class="col-md-3 col-6">
+            <a href="#" class="text-decoration-none">
+                <div class="category-item text-center py-4">
+                    <div class="category-icon">
+                        <i class="fas fa-calendar-week"></i>
+                    </div>
+                    <h5 class="category-title">Semanas Acadêmicas</h5>
+                </div>
+            </a>
+        </div>
+        <!-- Debates -->
+        <div class="col-md-3 col-6">
+            <a href="#" class="text-decoration-none">
+                <div class="category-item text-center py-4">
+                    <div class="category-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h5 class="category-title">Debates</h5>
+                </div>
+            </a>
+        </div>
+        <!-- Hackathons -->
+        <div class="col-md-3 col-6">
+            <a href="#" class="text-decoration-none">
+                <div class="category-item text-center py-4">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h5 class="category-title">Hackathons</h5>
+                </div>
+            </a>
+        </div>
+        <!-- Congressos -->
+        <div class="col-md-3 col-6">
+            <a href="#" class="text-decoration-none">
+                <div class="category-item text-center py-4">
+                    <div class="category-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h5 class="category-title">Congressos</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Seção de Áreas de Conhecimento -->
+    <div class="mt-5 pt-4">
+        <h2 class="mb-4">Eventos por Área de Conhecimento</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="accordion" id="accordionAreas">
+                    <!-- Ciências Exatas -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fas fa-calculator me-2 text-primary"></i> Ciências Exatas
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionAreas">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Matemática</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Física</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Química</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Estatística</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ciências Biológicas -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-dna me-2 text-primary"></i> Ciências Biológicas
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionAreas">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Biologia</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Ecologia</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Biotecnologia</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Farmácia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="accordion" id="accordionAreas2">
+                    <!-- Ciências Humanas -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fas fa-book-reader me-2 text-primary"></i> Ciências Humanas
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionAreas2">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>História</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Filosofia</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Sociologia</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Psicologia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tecnologia -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fas fa-laptop me-2 text-primary"></i> Tecnologia
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionAreas2">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Ciência da Computação</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Engenharia de Software</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Inteligência Artificial</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none text-secondary"><i class="fas fa-angle-right me-2 text-primary"></i>Segurança da Informação</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

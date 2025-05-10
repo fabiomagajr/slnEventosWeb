@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:40:03.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T14:39:30.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:38:19.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inscricao.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Inscricao.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\Inscricao.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:37:10.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\Evento.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:36:40.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Eventos.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T14:35:06.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250507223154_First.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:31:55.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T22:23:19.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "prjEventosWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "prjEventosWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAmwIUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T22:13:03.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
