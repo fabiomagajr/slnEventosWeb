@@ -302,8 +302,8 @@ C:\Users\fabio\source\repos\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\prjEven
 C:\Users\fabio\source\repos\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\ref\prjEventosWeb.dll
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\appsettings.json
-C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.staticwebassets.endpoints.json
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.staticwebassets.runtime.json
+C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.staticwebassets.endpoints.json
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.exe
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.deps.json
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\bin\Debug\net9.0\prjEventosWeb.runtimeconfig.json
@@ -457,6 +457,7 @@ C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\prjEventosWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\prjEventosWeb.RazorAssemblyInfo.cache
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\prjEventosWeb.RazorAssemblyInfo.cs
+C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\prjEventosWeb.sourcelink.json
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\scopedcss\bundle\prjEventosWeb.styles.css
 C:\Users\fabio\OneDrive\Documentos\web\trabalho\slnEventosWeb\prjEventosWeb\obj\Debug\net9.0\scopedcss\projectbundle\prjEventosWeb.bundle.scp.css
