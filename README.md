@@ -1,4 +1,4 @@
-# 🎓 Projeto Acadêmico de Gerenciamento de Eventos
+# 🎓 Projeto Acadêmico de Gerenciamento de Eventos: Eventos Web
 
 📌 **Tipo:** Projeto Web  
 🧠 **Tecnologias:** ASP.NET MVC + Entity Framework Core  
