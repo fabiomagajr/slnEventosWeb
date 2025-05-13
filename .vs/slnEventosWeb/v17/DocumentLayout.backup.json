@@ -1,133 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250513222829_newcontrollersd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250513222829_newcontrollersd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\onedrive\\documentos\\web\\trabalho\\slneventosweb\\prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511004955_newfunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511004955_newfunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511004516_newfunctionsnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511004516_newfunctionsnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\magaf\\onedrive\\documentos\\vs-projects\\aspnet\\eventos\\slneventosweb\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511003245_newfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511003245_newfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -137,90 +173,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "prjEventosWeb\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T01:58:26.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:01:23.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Program.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Program.cs",
-              "RelativeToolTip": "prjEventosWeb\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAnwC4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:48:24.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBIAAAAKAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:24:30.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250511011338_advancedssy.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:13:39.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.AspNetUsers [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-11T01:15:35.075Z",
+              "WhenOpened": "2025-05-13T23:50:34.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T23:50:26.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:14:09.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CreateUserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\CreateUserViewModel.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs",
               "RelativeToolTip": "prjEventosWeb\\Models\\CreateUserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,232 +229,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250511010603_advanceds.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:06:03.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "prjEventosWeb\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T02:28:02.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250511010820_advancedss.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:08:20.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:26:53.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250511005736_advance.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:57:36.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250511005353_advanc.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:53:53.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250511010145_advanced.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:01:45.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "prjEventosWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:40:03.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
-              "RelativeToolTip": "prjEventosWeb\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:38:19.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250511004955_NewFunctionsa.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
-              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:49:55.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T14:39:30.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
+              "Title": "Categories.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T22:23:19.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250513220010_NewPc.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:00:10.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T22:17:06.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250513222734_NewControllers.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:27:35.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250513222829_NewControllersD.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:28:29.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
               "RelativeToolTip": "prjEventosWeb\\Models\\Evento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T14:36:40.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:47:34.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:47:50.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:47:53.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T00:27:24.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "prjEventosWeb\\Models\\ErrorViewModel.cs",
+              "DocumentIndex": 12,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\EventoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T01:55:31.87Z",
+              "WhenOpened": "2025-05-13T22:15:19.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:26:53.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:01:23.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InscricaoController.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\InscricaoController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\InscricaoController.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\InscricaoController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\InscricaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:15:56.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-11T01:15:35.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250511011338_advancedssy.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T01:13:39.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250511010603_advanceds.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T01:06:03.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Inscricao.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Inscricao.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
               "RelativeToolTip": "prjEventosWeb\\Models\\Inscricao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -463,24 +418,217 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Eventos.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAlwB0AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T14:35:06.145Z",
+              "WhenOpened": "2025-05-11T00:24:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T01:58:26.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Program.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Program.cs",
+              "RelativeToolTip": "prjEventosWeb\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAnwC4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:48:24.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:28:02.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250511010820_advancedss.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T01:08:20.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250511005736_advance.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:57:36.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250511005353_advanc.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:53:53.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250511010145_advanced.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T01:01:45.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "prjEventosWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:40:03.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:38:19.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250511004955_NewFunctionsa.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
+              "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:49:55.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:47:34.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:47:50.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:47:53.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T00:27:24.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "prjEventosWeb\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T01:55:31.87Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 26,
+              "Title": "Eventos.cshtml",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Eventos.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T14:35:06.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "prjEventosWeb\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -489,37 +637,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "20250511004516_NewFunctionsNN.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
               "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:45:17.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T00:45:17.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 40,
               "Title": "20250511003245_NewFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
               "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:32:45.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T00:32:45.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20250507223154_First.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
               "RelativeToolTip": "prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,23 +673,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Categories.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T22:23:19.439Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 31,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "prjEventosWeb\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\fabio\\OneDrive\\Documentos\\web\\trabalho\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\magaf\\OneDrive\\Documentos\\VS-projects\\aspnet\\eventos\\slnEventosWeb\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css",
               "RelativeToolTip": "prjEventosWeb\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAGwBAAAAAAAAAAAmwIUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",

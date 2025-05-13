@@ -10,7 +10,7 @@
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
         public string Local { get; set; }
-        public decimal Preco { get; set; }
+        public double Preco { get; set; }
         public int Vagas { get; set; }
         public string ImagemUrl { get; set; }
         // Relacionamento com a tabela de Inscrições

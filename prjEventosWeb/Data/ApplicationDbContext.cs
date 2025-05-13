@@ -11,4 +11,10 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         : base(options)
     {
     }
+
+public DbSet<prjEventosWeb.Models.Categoria> Categoria { get; set; } = default!;
+
+public DbSet<prjEventosWeb.Models.Evento> Evento { get; set; } = default!;
+
+public DbSet<prjEventosWeb.Models.Inscricao> Inscricao { get; set; } = default!;
 }
