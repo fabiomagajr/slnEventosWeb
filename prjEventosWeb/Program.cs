@@ -46,5 +46,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     await SeedData.Initialize(services);
 }
+// novo novo novo
 
+//mais uma alteracao para testar commit e push
 app.Run();
