@@ -47,4 +47,6 @@ using (var scope = app.Services.CreateScope())
     await SeedData.Initialize(services);
 }
 // novo novo novo
+
+//mais uma alteracao para testar commit e push
 app.Run();
