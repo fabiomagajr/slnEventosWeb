@@ -3,167 +3,167 @@
   "WorkspaceRootPath": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Categoria\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\categoria\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Categoria\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\CategoriaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Controllers\\CategoriaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\CreateUserViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Home\\Categories.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250513220010_newpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250513220010_newpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250513222734_newcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250513222734_newcontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\EventoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Controllers\\EventoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250513222829_newcontrollersd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250513222829_newcontrollersd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\InscricaoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Controllers\\InscricaoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\Inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511011338_advancedssy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Admin\\CreateUser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010603_advanceds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\inscricao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010820_advancedss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511005736_advance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511005353_advanc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511010145_advanced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511004955_NewFunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Home\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511004955_newfunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511004955_newfunctionsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Shared\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Views\\Home\\Eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\views\\home\\eventos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511004516_NewFunctionsNN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250511003245_NewFunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511004516_newfunctionsnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511004516_newfunctionsnn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\Data\\Migrations\\20250507223154_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250511003245_newfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250511003245_newfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prjEventosWeb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\data\\migrations\\20250507223154_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|c:\\users\\fabio\\source\\repos\\fabiomagajr\\slneventosweb\\prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56545900-96FF-4C14-B6CE-E1A42A7CBCFC}|prjEventosWeb\\prjEventosWeb.csproj|solutionrelative:prjeventosweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -173,27 +173,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
-              "ToolTip": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
-              "RelativeToolTip": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T23:50:26.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\CategoriaController.cs",
@@ -205,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "CreateUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\CreateUserViewModel.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\CreateUserViewModel.cs",
@@ -217,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_Layout.cshtml",
@@ -229,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Categories.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Categories.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Categories.cshtml",
@@ -241,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "20250513220010_NewPc.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513220010_NewPc.cs",
@@ -253,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Index.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Categoria\\Index.cshtml",
@@ -266,7 +250,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Program.cs",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Program.cs",
+              "RelativeToolTip": "prjEventosWeb\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAnwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:48:24.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "ToolTip": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "RelativeToolTip": "prjEventosWeb\\Views\\Categoria\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T23:50:26.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Home\\Index.cshtml",
@@ -278,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "20250513222734_NewControllers.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513222734_NewControllers.cs",
@@ -290,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20250513222829_NewControllersD.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250513222829_NewControllersD.cs",
@@ -302,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Evento.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\Evento.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Evento.cs",
@@ -314,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EventoController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\EventoController.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\EventoController.cs",
@@ -326,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Shared\\_LoginPartial.cshtml",
@@ -338,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\SeedData.cs",
@@ -350,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "InscricaoController.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Controllers\\InscricaoController.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Controllers\\InscricaoController.cs",
@@ -362,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_prjEventosWeb_847e1339_da9b_4103_b084_9fa2a3261a68/True/SqlTable/dbo.AspNetUsers.sql",
@@ -371,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20250511011338_advancedssy.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511011338_advancedssy.cs",
@@ -383,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20250511010603_advanceds.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Data\\Migrations\\20250511010603_advanceds.cs",
@@ -395,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Inscricao.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\Inscricao.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\Inscricao.cs",
@@ -407,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CreateUser.cshtml",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
               "RelativeDocumentMoniker": "prjEventosWeb\\Views\\Admin\\CreateUser.cshtml",
@@ -419,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "prjEventosWeb\\Models\\ApplicationUser.cs",
@@ -428,18 +437,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T01:58:26.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Program.cs",
-              "RelativeDocumentMoniker": "prjEventosWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\fabio\\source\\repos\\fabiomagajr\\slnEventosWeb\\prjEventosWeb\\Program.cs",
-              "RelativeToolTip": "prjEventosWeb\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAnwC4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:48:24.871Z"
             },
             {
               "$type": "Document",
