@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prjEventosWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c157c2f2c81ac969e53b8b6aa1b26d6abb4fa52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5f17f153f6d511ac20dec2f99f4b8fdef504c4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("prjEventosWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prjEventosWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
