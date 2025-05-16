@@ -60,7 +60,7 @@
              DataInicio = DateTime.Now.AddDays(i * 2),
              DataFim = DateTime.Now.AddDays(i * 2 + 1),
              Local = $"Auditório {(char)('A' + i % 3)}",
-             Vagas = 30 + (i * 5),
+             LimiteVagas = 30 + (i * 5),
              ImagemUrl = "/images/placeholder.jpg",
              CategoriaId = (i % 4) + 1
          }))
@@ -96,7 +96,7 @@
                                     _ => "Outros"
                                 })
                             </span>
-                            <span class="text-muted small">@item.Vagas vagas</span>
+                            <span class="text-muted small">@item.LimiteVagas vagas</span>
                         </div>
                     </div>
                     <div class="card-footer bg-white border-top-0">

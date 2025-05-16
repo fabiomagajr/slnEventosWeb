@@ -1,78 +1,318 @@
 ﻿@model prjEventosWeb.Models.Evento
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = Model.Nome;
 }
 
-<h1>Details</h1>
+<div class="event-details-container">
+    <!-- Banner do evento com imagem de fundo -->
+    <div class="event-banner" style="background-image: url('@(string.IsNullOrEmpty(Model.ImagemUrl) ? "/images/default-event-banner.jpg" : Model.ImagemUrl)')">
+        <div class="container">
+            <div class="event-banner-content">
+                <span class="badge bg-primary">@(Model.Categoria?.Nome ?? "Evento")</span>
+                <h1 class="event-title">@Model.Nome</h1>
+                <div class="event-meta">
+                    <div class="event-meta-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>@Model.DataInicio.ToString("dd/MM/yyyy")</span>
+                    </div>
+                    <div class="event-meta-item">
+                        <i class="fas fa-clock"></i>
+                        <span>@Model.DataInicio.ToString("HH:mm") - @Model.DataFim.ToString("HH:mm")</span>
+                    </div>
+                    <div class="event-meta-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>@Model.Local</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div>
-    <h4>Evento</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Apresentador)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Apresentador)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UrlImgApresentador)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UrlImgApresentador)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataInicio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataInicio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataFim)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataFim)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Local)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Local)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Preco)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Preco)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Vagas)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Vagas)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagemUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagemUrl)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <div class="container mt-n5">
+        <div class="row">
+            <!-- Conteúdo principal -->
+            <div class="col-lg-8">
+                <div class="card shadow event-main-content">
+                    <div class="card-body">
+                        <!-- Navegação em abas -->
+                        <ul class="nav nav-tabs" id="eventTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="true">
+                                    <i class="fas fa-info-circle me-2"></i>Sobre
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="schedule-tab" data-bs-toggle="tab" data-bs-target="#schedule" type="button" role="tab" aria-controls="schedule" aria-selected="false">
+                                    <i class="fas fa-clock me-2"></i>Cronograma
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="location-tab" data-bs-toggle="tab" data-bs-target="#location" type="button" role="tab" aria-controls="location" aria-selected="false">
+                                    <i class="fas fa-map-marked-alt me-2"></i>Local
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Conteúdo das abas -->
+                        <div class="tab-content mt-4" id="eventTabContent">
+                            <!-- Aba Sobre -->
+                            <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                                <h3 class="mb-4">Sobre o Evento</h3>
+                                <div class="event-description mb-4">
+                                    @Html.Raw(Model.Descricao?.Replace("\n", "<br/>"))
+                                </div>
+
+                                <h4 class="mb-3">Apresentador</h4>
+                                <div class="presenter-profile d-flex align-items-center mb-4">
+                                    @if (!string.IsNullOrEmpty(Model.UrlImgApresentador))
+                                    {
+                                        <img src="@Model.UrlImgApresentador" alt="@Model.Apresentador" class="presenter-img">
+                                    }
+                                    else
+                                    {
+                                        <div class="presenter-img-placeholder">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                    }
+                                    <div class="ms-3">
+                                        <h5 class="mb-1">@Model.Apresentador</h5>
+                                        <p class="text-muted mb-0">Especialista</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Aba Cronograma -->
+                            <div class="tab-pane fade" id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
+                                <h3 class="mb-4">Cronograma</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot">
+                                            <i class="fas fa-door-open"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h5>Abertura</h5>
+                                            <p class="timeline-date">@Model.DataInicio.ToString("dd/MM/yyyy - HH:mm")</p>
+                                            <p>Recepção e credenciamento dos participantes</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot">
+                                            <i class="fas fa-chalkboard-teacher"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h5>Palestra Principal</h5>
+                                            <p class="timeline-date">@Model.DataInicio.AddMinutes(30).ToString("HH:mm")</p>
+                                            <p>Apresentação com @Model.Apresentador</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot">
+                                            <i class="fas fa-coffee"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h5>Intervalo</h5>
+                                            <p class="timeline-date">@Model.DataInicio.AddHours(1).AddMinutes(30).ToString("HH:mm")</p>
+                                            <p>Coffee break e networking</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot">
+                                            <i class="fas fa-comments"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h5>Perguntas e Discussão</h5>
+                                            <p class="timeline-date">@Model.DataFim.AddMinutes(-30).ToString("HH:mm")</p>
+                                            <p>Sessão de perguntas e respostas</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item">
+                                        <div class="timeline-dot">
+                                            <i class="fas fa-door-closed"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h5>Encerramento</h5>
+                                            <p class="timeline-date">@Model.DataFim.ToString("HH:mm")</p>
+                                            <p>Encerramento do evento e considerações finais</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Aba Local -->
+                            <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
+                                <h3 class="mb-4">Local do Evento</h3>
+                                <div class="event-location mb-4">
+                                    <div class="location-card">
+                                        <div class="location-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="location-details">
+                                            <h5>@Model.Local</h5>
+                                            <p class="text-muted">Entre em contato para mais detalhes sobre o local</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="location-map mt-4">
+                                        <!-- Placeholder para mapa - você pode implementar um mapa real aqui -->
+                                        <div class="map-placeholder">
+                                            <i class="fas fa-map-marked-alt"></i>
+                                            <p>Mapa do local</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seção de ações administrativas -->
+                <div class="card shadow mt-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Ações Administrativas</h4>
+                        <div class="d-flex">
+                            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-outline-primary me-2">
+                                <i class="fas fa-edit me-1"></i> Editar
+                            </a>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="fas fa-arrow-left me-1"></i> Voltar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <!-- Card de inscrição -->
+                <div class="card shadow sticky-top event-sidebar-card">
+                    <div class="card-body">
+                        <h4 class="event-sidebar-title">Detalhes da Inscrição</h4>
+
+                        <div class="event-info-item">
+                            <div class="icon">
+                                <i class="fas fa-ticket-alt"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Preço</h5>
+                                <p class="fw-bold fs-4">
+                                    @if (Model.Preco > 0)
+                                    {
+                                        <span class="text-primary">R$ @Model.Preco.ToString("F2")</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-success">Gratuito</span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="event-info-item">
+                            <div class="icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Disponibilidade</h5>
+                                <p>
+                                    @if (Model.VagasDisponiveis > 0)
+                                    {
+                                        <span class="text-success">@Model.VagasDisponiveis vagas disponíveis</span>
+                                        <div class="progress mt-2" style="height: 6px;">
+                                            @{
+                                                int percentDisponivel = (int)(((double)Model.VagasDisponiveis / Model.LimiteVagas) * 100);
+                                            }
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: @percentDisponivel%"></div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger">Esgotado</span>
+                                        <div class="progress mt-2" style="height: 6px;">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"></div>
+                                        </div>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="event-info-item">
+                            <div class="icon">
+                                <i class="fas fa-calendar-day"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Data</h5>
+                                <p>@Model.DataInicio.ToString("dd/MM/yyyy")</p>
+                            </div>
+                        </div>
+
+                        <div class="event-info-item">
+                            <div class="icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="content">
+                                <h5>Horário</h5>
+                                <p>@Model.DataInicio.ToString("HH:mm") - @Model.DataFim.ToString("HH:mm")</p>
+                            </div>
+                        </div>
+
+                        <div class="event-registration-actions mt-4">
+                            @if (User.Identity.IsAuthenticated && !User.IsInRole("Admin"))
+                            {
+                                @if (Model.Inscricoes?.Any(i => i.ApplicationUserId == ViewBag.UserId) == true)
+                                {
+                                    <div class="alert alert-success">
+                                        <i class="fas fa-check-circle me-2"></i> Você já está inscrito neste evento.
+                                    </div>
+                                }
+                                else if (Model.VagasDisponiveis > 0)
+                                {
+                                    <form asp-controller="Inscricao" asp-action="Inscrever" asp-route-eventoId="@Model.Id" method="post">
+                                        <button type="submit" class="btn btn-register">
+                                            <i class="fas fa-ticket-alt me-2"></i> Inscrever-se
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <div class="alert alert-warning">
+                                        <i class="fas fa-exclamation-triangle me-2"></i> Não há mais vagas disponíveis para este evento.
+                                    </div>
+                                }
+                            }
+                            else if (!User.Identity.IsAuthenticated)
+                            {
+                                <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-secondary d-block mb-2">
+                                    <i class="fas fa-sign-in-alt me-2"></i> Faça login para se inscrever
+                                </a>
+                                <div class="small text-center text-muted">
+                                    <a asp-area="Identity" asp-page="/Account/Register">Não tem uma conta? Registre-se</a>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="event-share mt-4">
+                            <h5>Compartilhar</h5>
+                            <div class="social-share-buttons mt-2">
+                                <a href="#" class="btn-social btn-facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="btn-social btn-twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn-social btn-linkedin">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="btn-social btn-whatsapp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
 </div>

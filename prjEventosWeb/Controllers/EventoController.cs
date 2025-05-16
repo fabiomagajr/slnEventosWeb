@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,16 +14,19 @@ namespace prjEventosWeb.Controllers
     public class EventoController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public EventoController(ApplicationDbContext context)
+        public EventoController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Evento
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Evento.ToListAsync());
+            var applicationDbContext = _context.Evento.Include(e => e.Categoria);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Evento/Details/5
@@ -34,18 +38,20 @@ namespace prjEventosWeb.Controllers
             }
 
             var evento = await _context.Evento
+                .Include(e => e.Categoria)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (evento == null)
             {
                 return NotFound();
             }
-
+            ViewBag.UserId = _userManager.GetUserId(User);
             return View(evento);
         }
 
         // GET: Evento/Create
         public IActionResult Create()
         {
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id");
             return View();
         }
 
@@ -54,7 +60,7 @@ namespace prjEventosWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Apresentador,UrlImgApresentador,Descricao,DataInicio,DataFim,Local,Preco,Vagas,ImagemUrl,CategoriaId")] Evento evento)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Apresentador,UrlImgApresentador,Descricao,DataInicio,DataFim,Local,Preco,LimiteVagas,ImagemUrl,CategoriaId")] Evento evento)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +68,7 @@ namespace prjEventosWeb.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
             return View(evento);
         }
 
@@ -78,6 +85,7 @@ namespace prjEventosWeb.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
             return View(evento);
         }
 
@@ -86,7 +94,7 @@ namespace prjEventosWeb.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Apresentador,UrlImgApresentador,Descricao,DataInicio,DataFim,Local,Preco,Vagas,ImagemUrl,CategoriaId")] Evento evento)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Apresentador,UrlImgApresentador,Descricao,DataInicio,DataFim,Local,Preco,LimiteVagas,ImagemUrl,CategoriaId")] Evento evento)
         {
             if (id != evento.Id)
             {
@@ -113,6 +121,7 @@ namespace prjEventosWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
             return View(evento);
         }
 
@@ -125,6 +134,7 @@ namespace prjEventosWeb.Controllers
             }
 
             var evento = await _context.Evento
+                .Include(e => e.Categoria)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (evento == null)
             {

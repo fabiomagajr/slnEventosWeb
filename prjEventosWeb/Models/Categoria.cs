@@ -7,6 +7,6 @@
         public string Descricao { get; set; }
         public string ImagemUrl { get; set; }
         // Relacionamento com a tabela de Eventos
-        public List<Evento> Eventos { get; set; } = new List<Evento>();
+        public virtual ICollection<Evento> Eventos { get; set; } = new List<Evento>();
     }
 }

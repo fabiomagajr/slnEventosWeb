@@ -1,89 +1,169 @@
 ﻿@model IEnumerable<prjEventosWeb.Models.Evento>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Eventos";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Apresentador)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UrlImgApresentador)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataInicio)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataFim)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Local)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Preco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Vagas)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagemUrl)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Apresentador)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrlImgApresentador)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataInicio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataFim)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Local)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Vagas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImagemUrl)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+@section Hero {
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="hero-text">
+                        <h1>Descubra Eventos Acadêmicos</h1>
+                        <p>Encontre palestras, workshops, conferências e muito mais. Participe do conhecimento!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 }
-    </tbody>
-</table>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h2 class="mb-0">Eventos Disponíveis</h2>
+                        <a asp-action="Create" class="btn btn-primary">
+                            <i class="fas fa-plus-circle me-2"></i>Novo Evento
+                        </a>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bg-primary text-white">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="text" id="searchInput" class="form-control" placeholder="Buscar por nome, apresentador, categoria..." aria-label="Buscar eventos">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="eventsList">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-6 mb-4 event-item"
+                 data-name="@item.Nome.ToLower()"
+                 data-presenter="@item.Apresentador?.ToLower()"
+                 data-category="@item.Categoria?.Nome?.ToLower()"
+                 data-location="@item.Local?.ToLower()">
+                <div class="event-card">
+                    <div class="event-img-container">
+                        <img src="@(string.IsNullOrEmpty(item.ImagemUrl) ? "/images/default-event.jpg" : item.ImagemUrl)" alt="@item.Nome">
+                        <div class="event-overlay"></div>
+                    </div>
+                    <div class="event-details">
+                        <span class="badge bg-primary mb-2">@(item.Categoria != null ? item.Categoria.Nome : "Sem categoria")</span>
+                        <h3 class="event-title">@item.Nome</h3>
+                        <div class="event-date mb-2">
+                            <i class="fas fa-calendar-alt me-2"></i>
+                            @item.DataInicio.ToString("dd/MM/yyyy") - @item.DataInicio.ToString("HH:mm")
+                        </div>
+                        <div class="event-info mb-2">
+                            <i class="fas fa-map-marker-alt me-2"></i> @item.Local
+                        </div>
+                        <div class="event-presenter d-flex align-items-center mb-3">
+                            @if (!string.IsNullOrEmpty(item.UrlImgApresentador))
+                            {
+                                <img src="@item.UrlImgApresentador" alt="@item.Apresentador" class="rounded-circle me-2" style="width: 30px; height: 30px; object-fit: cover;">
+                            }
+                            else
+                            {
+                                <div class="rounded-circle bg-secondary me-2 d-flex align-items-center justify-content-center" style="width: 30px; height: 30px;">
+                                    <i class="fas fa-user text-white"></i>
+                                </div>
+                            }
+                            <span>@item.Apresentador</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                @if (item.Preco > 0)
+                                {
+                                    <span class="fs-5 fw-bold text-primary">R$ @item.Preco.ToString("F2")</span>
+                                }
+                                else
+                                {
+                                    <span class="fs-5 fw-bold text-success">Gratuito</span>
+                                }
+                            </div>
+                            <div class="text-end">
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-event">
+                                    <i class="fas fa-ticket-alt me-1"></i> Inscrever-se
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="event-admin-links mt-3 text-end">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary me-1">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary me-1">
+                                <i class="fas fa-info-circle"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div id="noResults" class="row mt-4 d-none">
+        <div class="col-12 text-center py-5">
+            <i class="fas fa-search fa-3x text-muted mb-3"></i>
+            <h3>Nenhum evento encontrado</h3>
+            <p class="text-muted">Tente refinar sua busca ou navegue por categorias diferentes.</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Filtro de eventos
+            $("#searchInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                var visibleCount = 0;
+
+                $(".event-item").each(function() {
+                    var name = $(this).data("name") || "";
+                    var presenter = $(this).data("presenter") || "";
+                    var category = $(this).data("category") || "";
+                    var location = $(this).data("location") || "";
+
+                    if (name.indexOf(value) > -1 ||
+                        presenter.indexOf(value) > -1 ||
+                        category.indexOf(value) > -1 ||
+                        location.indexOf(value) > -1) {
+                        $(this).removeClass("d-none");
+                        visibleCount++;
+                    } else {
+                        $(this).addClass("d-none");
+                    }
+                });
+
+                // Mostrar mensagem se nenhum resultado
+                if (visibleCount === 0) {
+                    $("#noResults").removeClass("d-none");
+                } else {
+                    $("#noResults").addClass("d-none");
+                }
+            });
+
+            // Animação nos cards de eventos
+            $(".event-card").hover(
+                function() {
+                    $(this).find(".event-overlay").css("opacity", 1);
+                },
+                function() {
+                    $(this).find(".event-overlay").css("opacity", 0);
+                }
+            );
+        });
+    </script>
+}

@@ -6,6 +6,7 @@ namespace prjEventosWeb.Models
     {
         public string? NomeCompleto { get; set; }
         public DateTime Criacao { get; set; } = DateTime.Now;
+        public virtual ICollection<Inscricao> Inscricoes { get; set; } = new List<Inscricao>();
         // Você pode adicionar mais campos se quiser
     }
 

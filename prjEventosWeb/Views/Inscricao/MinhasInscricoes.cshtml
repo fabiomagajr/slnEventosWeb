@@ -1,0 +1,52 @@
+﻿@model IEnumerable<prjEventosWeb.Models.Inscricao>
+
+@{
+    ViewData["Title"] = "Minhas Inscrições";
+}
+
+<h1>Minhas Inscrições</h1>
+
+@if (TempData["Sucesso"] != null)
+{
+    <div class="alert alert-success">@TempData["Sucesso"]</div>
+}
+@if (TempData["Erro"] != null)
+{
+    <div class="alert alert-danger">@TempData["Erro"]</div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Você ainda não se inscreveu em nenhum evento.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var inscricao in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    @if (!string.IsNullOrEmpty(inscricao.Evento?.ImagemUrl))
+                    {
+                        <img src="@inscricao.Evento.ImagemUrl" class="card-img-top" alt="@inscricao.Evento.Nome">
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@inscricao.Evento?.Nome</h5>
+                        <p class="card-text"><strong>Data:</strong> @inscricao.Evento?.DataInicio.ToString("dd/MM/yyyy HH:mm")</p>
+                        <p class="card-text"><strong>Local:</strong> @inscricao.Evento?.Local</p>
+                        <p class="card-text"><strong>Categoria:</strong> @inscricao.Evento?.Categoria?.Nome</p>
+                        <p class="card-text"><strong>Data de Inscrição:</strong> @inscricao.DataInscricao.ToString("dd/MM/yyyy HH:mm")</p>
+
+                        <form asp-action="Cancelar" asp-route-inscricaoId="@inscricao.Id" method="post"
+                              onsubmit="return confirm('Tem certeza que deseja cancelar sua inscrição neste evento?');">
+                            <button type="submit" class="btn btn-danger">Cancelar Inscrição</button>
+                        </form>
+
+                        <a asp-controller="Eventos" asp-action="Details" asp-route-id="@inscricao.EventoId"
+                           class="btn btn-primary mt-2">Ver Detalhes do Evento</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
