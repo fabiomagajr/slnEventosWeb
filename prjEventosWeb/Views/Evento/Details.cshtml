@@ -3,6 +3,13 @@
 @{
     ViewData["Title"] = Model.Nome;
 }
+@if (TempData["Sucesso"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="fas fa-check-circle me-2"></i> @TempData["Sucesso"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
 
 <div class="event-details-container">
     <!-- Banner do evento com imagem de fundo -->
@@ -217,7 +224,7 @@
                                 <p>
                                     @if (Model.VagasDisponiveis > 0)
                                     {
-                                        <span class="text-success">@Model.VagasDisponiveis vagas disponíveis</span>
+                                        <span class="text-success">@Model.VagasDisponiveis de @Model.LimiteVagas vagas disponíveis</span>
                                         <div class="progress mt-2" style="height: 6px;">
                                             @{
                                                 int percentDisponivel = (int)(((double)Model.VagasDisponiveis / Model.LimiteVagas) * 100);
@@ -227,7 +234,7 @@
                                     }
                                     else
                                     {
-                                        <span class="text-danger">Esgotado</span>
+                                        <span class="text-danger">Esgotado - 0 de @Model.LimiteVagas vagas disponíveis</span>
                                         <div class="progress mt-2" style="height: 6px;">
                                             <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"></div>
                                         </div>

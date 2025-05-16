@@ -25,7 +25,9 @@ namespace prjEventosWeb.Controllers
         // GET: Evento
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Evento.Include(e => e.Categoria);
+            var applicationDbContext = _context.Evento
+                .Include(e => e.Categoria)
+                .Include(e => e.Inscricoes); // Carrega as inscrições para calcular vagas disponíveis
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -37,21 +39,30 @@ namespace prjEventosWeb.Controllers
                 return NotFound();
             }
 
+            // Aqui está a correção: Incluir explicitamente as Inscrições no carregamento do Evento
             var evento = await _context.Evento
                 .Include(e => e.Categoria)
+                .Include(e => e.Inscricoes)  // Adicionada esta linha para carregar as inscrições
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (evento == null)
             {
                 return NotFound();
             }
+
             ViewBag.UserId = _userManager.GetUserId(User);
+
+            // Para debug: Verificar quantidade de inscritos e vagas disponíveis
+            ViewBag.NumeroInscricoes = evento.Inscricoes?.Count() ?? 0;
+            ViewBag.VagasDisponiveis = evento.VagasDisponiveis;
+
             return View(evento);
         }
 
         // GET: Evento/Create
         public IActionResult Create()
         {
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id");
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome"); // Alterado para exibir o Nome da categoria em vez do Id
             return View();
         }
 
@@ -68,7 +79,7 @@ namespace prjEventosWeb.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", evento.CategoriaId); // Alterado para exibir o Nome da categoria
             return View(evento);
         }
 
@@ -85,7 +96,7 @@ namespace prjEventosWeb.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", evento.CategoriaId); // Alterado para exibir o Nome da categoria
             return View(evento);
         }
 
@@ -121,7 +132,7 @@ namespace prjEventosWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Id", evento.CategoriaId);
+            ViewData["CategoriaId"] = new SelectList(_context.Categoria, "Id", "Nome", evento.CategoriaId); // Alterado para exibir o Nome da categoria
             return View(evento);
         }
 
