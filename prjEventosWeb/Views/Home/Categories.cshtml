@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IEnumerable<prjEventosWeb.Models.Categoria>
+@{
     ViewData["Title"] = "Categorias";
 }
 
@@ -45,7 +46,10 @@
                         <div class="position-absolute bottom-0 start-0 p-4 text-white">
                             <h3 class="mb-2">Palestras</h3>
                             <p>Apresentações de especialistas sobre temas relevantes para o mundo acadêmico.</p>
-                            <a href="#" class="btn btn-light">Ver Palestras</a>
+                            
+                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 1 })" class="btn btn-primary">
+                                Ver Palestras
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +65,9 @@
                         <div class="position-absolute bottom-0 start-0 p-4 text-white">
                             <h3 class="mb-2">Workshops</h3>
                             <p>Atividades práticas e interativas para desenvolver habilidades específicas.</p>
-                            <a href="#" class="btn btn-light">Ver Workshops</a>
+                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 2 })" class="btn btn-primary">
+                                Ver Workshops
+                            </a>
                         </div>
                     </div>
                 </div>

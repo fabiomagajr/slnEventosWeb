@@ -23,14 +23,32 @@ namespace prjEventosWeb.Controllers
         }
 
         // GET: Evento
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoriaId = null)
         {
-            var applicationDbContext = _context.Evento
+            DateTime dataAtual = DateTime.Now;
+
+            // Query base
+            var query = _context.Evento
                 .Include(e => e.Categoria)
-                .Where(e => e.DataInicio >= DateTime.Now)
+                .Where(e => e.DataInicio >= dataAtual);
+
+            // Adiciona filtro por categoria se o parâmetro foi fornecido
+            if (categoriaId.HasValue)
+            {
+                query = query.Where(e => e.CategoriaId == categoriaId.Value);
+                // Opcional: armazenar o nome da categoria para exibir na view
+                ViewBag.CategoriaFiltrada = await _context.Categoria
+                    .Where(c => c.Id == categoriaId.Value)
+                    .Select(c => c.Nome)
+                    .FirstOrDefaultAsync();
+            }
+
+            // Ordenação e execução da query
+            var eventos = await query
                 .OrderBy(e => e.DataInicio)
-                .Include(e => e.Inscricoes); // Carrega as inscrições para calcular vagas disponíveis
-            return View(await applicationDbContext.ToListAsync());
+                .ToListAsync();
+
+            return View(eventos);
         }
 
         // GET: Evento/Details/5
