@@ -27,6 +27,8 @@ namespace prjEventosWeb.Controllers
         {
             var applicationDbContext = _context.Evento
                 .Include(e => e.Categoria)
+                .Where(e => e.DataInicio >= DateTime.Now)
+                .OrderBy(e => e.DataInicio)
                 .Include(e => e.Inscricoes); // Carrega as inscrições para calcular vagas disponíveis
             return View(await applicationDbContext.ToListAsync());
         }
