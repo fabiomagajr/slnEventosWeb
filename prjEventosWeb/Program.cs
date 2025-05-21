@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using prjEventosWeb.Data;
 using prjEventosWeb.Models;
+using prjEventosWeb.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,8 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<ApplicationUser>()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
+// Registrar o serviço de email
+builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -29,6 +31,7 @@ else
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

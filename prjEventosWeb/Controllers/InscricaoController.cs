@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using prjEventosWeb.Data;
+using prjEventosWeb.Extensions;
 using prjEventosWeb.Models;
+using prjEventosWeb.Services;
 
 namespace prjEventosWeb.Controllers
 {
@@ -17,17 +18,24 @@ namespace prjEventosWeb.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
-        public InscricaoController(ApplicationDbContext context,UserManager<ApplicationUser> userManager)
+        private readonly IEmailService _emailService;
+
+        public InscricaoController(
+            ApplicationDbContext context,
+            UserManager<ApplicationUser> userManager,
+            IEmailService emailService)
         {
             _context = context;
             _userManager = userManager;
+            _emailService = emailService;
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Inscrever(int eventoId) // Recebe o ID do evento
+        [Authorize] // Garante que o usuário esteja logado
+        public async Task<IActionResult> Inscrever(int eventoId)
         {
-            var userId = _userManager.GetUserId(User); // Pega o ID do usuário logado
+            var userId = _userManager.GetUserId(User);
             if (userId == null)
             {
                 return Challenge(); // Ou redirecionar para login
@@ -39,15 +47,14 @@ namespace prjEventosWeb.Controllers
                 try
                 {
                     // 1. Buscar o evento incluindo as inscrições para contá-las
-                    // Usar .Include() para carregar as inscrições relacionadas
                     var evento = await _context.Evento
-                                               .Include(e => e.Inscricoes) // Crucial para ter e.Inscricoes populado
+                                               .Include(e => e.Inscricoes)
                                                .FirstOrDefaultAsync(e => e.Id == eventoId);
 
                     if (evento == null)
                     {
-                        TempData["Erro"] = "Evento não encontrado.";
-                        return RedirectToAction("Index", "Evento"); // Ou alguma página de erro
+                        this.AddErro("Evento não encontrado.");
+                        return RedirectToAction("Index", "Evento");
                     }
 
                     // 2. Verificar se o usuário já está inscrito neste evento
@@ -55,17 +62,15 @@ namespace prjEventosWeb.Controllers
                                                     .AnyAsync(i => i.EventoId == eventoId && i.ApplicationUserId == userId);
                     if (jaInscrito)
                     {
-                        TempData["Aviso"] = "Você já está inscrito neste evento.";
-                        // Poderia redirecionar para a página de detalhes do evento ou meus eventos
+                        this.AddAviso("Você já está inscrito neste evento.");
                         return RedirectToAction("Details", "Evento", new { id = eventoId });
                     }
 
                     // 3. Verificar se ainda há vagas disponíveis
-                    // A propriedade calculada 'VagasDisponiveis' faz isso: evento.LimiteVagas - evento.Inscricoes.Count()
-                    if (evento.VagasDisponiveis <= 0) // Ou evento.Inscritos >= evento.LimiteVagas
+                    if (evento.VagasDisponiveis <= 0)
                     {
-                        TempData["Erro"] = "Não há mais vagas disponíveis para este evento.";
-                        await transaction.RollbackAsync(); // Desfaz a transação, embora nada tenha sido salvo ainda
+                        this.AddErro("Não há mais vagas disponíveis para este evento.");
+                        await transaction.RollbackAsync();
                         return RedirectToAction("Details", "Evento", new { id = eventoId });
                     }
 
@@ -74,7 +79,7 @@ namespace prjEventosWeb.Controllers
                     {
                         EventoId = eventoId,
                         ApplicationUserId = userId,
-                        // DataInscricao = DateTime.UtcNow // Se você adicionou essa propriedade
+                        DataInscricao = DateTime.UtcNow
                     };
 
                     _context.Inscricao.Add(novaInscricao);
@@ -82,30 +87,40 @@ namespace prjEventosWeb.Controllers
 
                     await transaction.CommitAsync(); // Confirma a transação
 
-                    TempData["Sucesso"] = $"Inscrição no evento '{evento.Nome}' realizada com sucesso!";
-                    return RedirectToAction("MinhasInscricoes"); // Ou alguma página de confirmação/meus eventos
+                    // 5. Enviar email de confirmação
+                    var usuario = await _userManager.FindByIdAsync(userId);
+                    bool emailEnviado = await _emailService.EnviarEmailConfirmacaoInscricao(usuario, evento);
 
+                    // Se o email foi enviado, adicionar mensagem de sucesso adicional
+                    this.AddSucesso($"Inscrição no evento '{evento.Nome}' realizada com sucesso!");
+                    if (emailEnviado)
+                    {
+                        this.AddEmailSucesso($"Um email de confirmação foi enviado para {usuario.Email}.");
+                    }
+                    else
+                    {
+                        this.AddEmailErro("Não foi possível enviar o email de confirmação, mas sua inscrição foi realizada.");
+                    }
+
+                    return RedirectToAction("MinhasInscricoes");
                 }
-                catch (DbUpdateException ex) // Captura exceções do banco, como violação de chave única
+                catch (DbUpdateException ex)
                 {
                     await transaction.RollbackAsync();
-                    // Logar o erro: ex.InnerException?.Message
-                    TempData["Erro"] = "Ocorreu um erro ao tentar se inscrever. Verifique se você já não está inscrito ou tente novamente.";
-                    // Se for violação de chave única (EventoId, ApplicationUserId), significa que já está inscrito.
-                    // A verificação anterior com AnyAsync deveria pegar isso, mas o índice unique é uma garantia.
-                    return RedirectToAction("Detalhes", "Eventos", new { id = eventoId });
+                    this.AddErro("Ocorreu um erro ao tentar se inscrever. Verifique se você já não está inscrito ou tente novamente.");
+                    return RedirectToAction("Details", "Evento", new { id = eventoId });
                 }
                 catch (Exception ex)
                 {
                     await transaction.RollbackAsync();
-                    // Logar o erro
-                    TempData["Erro"] = "Ocorreu um erro inesperado ao processar sua inscrição.";
-                    return RedirectToAction("Index", "Eventos");
+                    this.AddErro("Ocorreu um erro inesperado ao processar sua inscrição.");
+                    return RedirectToAction("Index", "Evento");
                 }
             }
         }
 
         // Action para o aluno ver suas inscrições
+        [Authorize]
         public async Task<IActionResult> MinhasInscricoes()
         {
             var userId = _userManager.GetUserId(User);
@@ -119,9 +134,6 @@ namespace prjEventosWeb.Controllers
 
             return View(inscricoes);
         }
-
-
-        
 
         // GET: Inscricao
         public async Task<IActionResult> Index()
@@ -157,8 +169,6 @@ namespace prjEventosWeb.Controllers
         }
 
         // POST: Inscricao/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Email,DataInscricao,EventoId")] Inscricao inscricao)
@@ -191,8 +201,6 @@ namespace prjEventosWeb.Controllers
         }
 
         // POST: Inscricao/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,DataInscricao,EventoId")] Inscricao inscricao)
@@ -264,9 +272,10 @@ namespace prjEventosWeb.Controllers
         {
             return _context.Inscricao.Any(e => e.Id == id);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize] // Garante que o usuário esteja logado
+        [Authorize]
         public async Task<IActionResult> Cancelar(int inscricaoId)
         {
             var userId = _userManager.GetUserId(User);
@@ -285,7 +294,7 @@ namespace prjEventosWeb.Controllers
 
                     if (inscricao == null)
                     {
-                        TempData["Erro"] = "Inscrição não encontrada ou você não tem permissão para cancelá-la.";
+                        this.AddErro("Inscrição não encontrada ou você não tem permissão para cancelá-la.");
                         return RedirectToAction("MinhasInscricoes");
                     }
 
@@ -298,13 +307,13 @@ namespace prjEventosWeb.Controllers
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
 
-                    TempData["Sucesso"] = $"Sua inscrição no evento '{nomeEvento}' foi cancelada com sucesso.";
+                    this.AddSucesso($"Sua inscrição no evento '{nomeEvento}' foi cancelada com sucesso.");
                     return RedirectToAction("MinhasInscricoes");
                 }
                 catch (Exception)
                 {
                     await transaction.RollbackAsync();
-                    TempData["Erro"] = "Ocorreu um erro ao cancelar sua inscrição.";
+                    this.AddErro("Ocorreu um erro ao cancelar sua inscrição.");
                     return RedirectToAction("MinhasInscricoes");
                 }
             }
