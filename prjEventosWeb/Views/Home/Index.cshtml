@@ -4,21 +4,235 @@
 
 @section Hero {
     <div class="hero-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 hero-text">
-                    <h1>Descubra os Melhores Eventos Acadêmicos</h1>
-                    <p>Encontre palestras, workshops, conferências e muito mais. Conecte-se com sua comunidade acadêmica.</p>
-                    <a href="#" class="btn btn-light btn-lg">Explorar Eventos</a>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-slide" style="background-image: url('/img/eventos-hero-1.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-8 hero-text">
+                                    <h1 class="display-4 fw-bold text-white mb-4">Descubra os Melhores Eventos Acadêmicos</h1>
+                                    <p class="lead text-white mb-4">Encontre palestras, workshops, conferências e muito mais. Conecte-se com sua comunidade acadêmica.</p>
+                                    <a href="@Url.Action("Index", "Evento", new { categoriaId = 2 })" class="btn btn-light btn-lg">Explorar Eventos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 d-none d-lg-block">
-                    <!-- Imagem ilustrativa (placeholder) - você adicionará depois -->
-                    <img src="/img/eventos.jpg" alt="Eventos acadêmicos" class="img-fluid rounded shadow" />
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image: url('/img/eventos-hero-2.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-8 hero-text">
+                                    <h1 class="display-4 fw-bold text-white mb-4">Workshops e Capacitações</h1>
+                                    <p class="lead text-white mb-4">Desenvolva suas habilidades com nossos workshops práticos e sessões de capacitação profissional.</p>
+                                    <a href="@Url.Action("Index", "Evento", new { categoriaId = 1 })" class="btn btn-primary btn-lg">Ver Workshops</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image: url('/img/eventos-hero-3.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-8 hero-text">
+                                    <h1 class="display-4 fw-bold text-white mb-4">Conferências de Alto Nível</h1>
+                                    <p class="lead text-white mb-4">Participe de conferências com os maiores especialistas e researchers da área acadêmica.</p>
+                                    <a href="@Url.Action("Index", "Evento", new { categoriaId = 4 })" class="btn btn-warning btn-lg">Ver Conferências</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image: url('/img/eventos-hero-4.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-75">
+                                <div class="col-lg-8 hero-text">
+                                    <h1 class="display-4 fw-bold text-white mb-4">Networking Acadêmico</h1>
+                                    <p class="lead text-white mb-4">Conecte-se com profissionais, estudantes e pesquisadores. Expanda sua rede de contatos.</p>
+                                    <a href="@Url.Action("Index", "Evento", new { categoriaId = 3 })" class="btn btn-success btn-lg">Fazer Networking</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Controles de navegação -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <div class="carousel-control-icon">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <div class="carousel-control-icon">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <span class="visually-hidden">Próximo</span>
+            </button>
         </div>
     </div>
 }
+
+<!-- CSS personalizado para o slider -->
+<style>
+    .hero-section {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hero-slide {
+        height: 80vh;
+        min-height: 600px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%);
+        z-index: 1;
+    }
+
+    .hero-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    .min-vh-75 {
+        min-height: 75vh;
+    }
+
+    /* Personalização dos controles */
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 60px;
+        height: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255,255,255,0.3);
+        opacity: 0.8;
+        transition: all 0.3s ease;
+    }
+
+    .carousel-control-prev {
+        left: 30px;
+    }
+
+    .carousel-control-next {
+        right: 30px;
+    }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+            opacity: 1;
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+    .carousel-control-icon {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .carousel-control-icon i {
+            font-size: 18px;
+            color: white;
+        }
+
+    /* Personalização dos indicadores */
+    .carousel-indicators {
+        bottom: 30px;
+        margin-bottom: 0;
+    }
+
+        .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,0.5);
+            border: 2px solid rgba(255,255,255,0.8);
+            margin: 0 6px;
+            transition: all 0.3s ease;
+        }
+
+            .carousel-indicators button.active {
+                background-color: white;
+                transform: scale(1.2);
+            }
+
+    /* Responsividade 
+    media (max-width: 768px) {
+        .hero-slide
+
+    {
+        height: 70vh;
+        min-height: 500px;
+    }
+
+    */
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 45px;
+        height: 45px;
+    }
+
+    .carousel-control-prev {
+        left: 15px;
+    }
+
+    .carousel-control-next {
+        right: 15px;
+    }
+
+    .carousel-control-icon i {
+        font-size: 14px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    }
+</style>
 
 <!-- Seção de Categorias -->
 <section class="category-container">
@@ -29,7 +243,7 @@
         </div>
         <div class="row g-4">
             <div class="col-md-3 col-6">
-                <a href="#" class="text-decoration-none">
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 2 })" class="text-decoration-none">
                     <div class="category-item">
                         <div class="category-icon">
                             <i class="fas fa-microphone"></i>
@@ -40,7 +254,7 @@
                 </a>
             </div>
             <div class="col-md-3 col-6">
-                <a href="#" class="text-decoration-none">
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 1 })" class="text-decoration-none">
                     <div class="category-item">
                         <div class="category-icon">
                             <i class="fas fa-laptop-code"></i>
@@ -51,7 +265,7 @@
                 </a>
             </div>
             <div class="col-md-3 col-6">
-                <a href="#" class="text-decoration-none">
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 4 })" class="text-decoration-none">
                     <div class="category-item">
                         <div class="category-icon">
                             <i class="fas fa-users"></i>
@@ -62,7 +276,7 @@
                 </a>
             </div>
             <div class="col-md-3 col-6">
-                <a href="#" class="text-decoration-none">
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 3 })" class="text-decoration-none">
                     <div class="category-item">
                         <div class="category-icon">
                             <i class="fas fa-graduation-cap"></i>
@@ -103,7 +317,7 @@
                             <i class="fas fa-map-marker-alt me-2 text-muted"></i> Centro de Convenções
                         </div>
                         <p class="event-description">Uma semana inteira dedicada às últimas tendências em tecnologia e inovação no ambiente acadêmico.</p>
-                        <a href="#" class="btn btn-event">Inscrever-se</a>
+                        <a href="@Url.Action("Details", "Evento", new { Id = 6 })" class="btn btn-event">Inscrever-se</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +332,7 @@
                         </div>
                     </div>
                     <div class="event-details">
-                        <h3 class="event-title">Workshop de Metodologia Científica</h3>
+                        <h3 class="event-title">Workshop Metodologia Científica</h3>
                         <div class="event-date mb-2">
                             <i class="far fa-calendar-alt me-2"></i> 10 Junho, 2025
                         </div>
@@ -126,7 +340,7 @@
                             <i class="fas fa-map-marker-alt me-2 text-muted"></i> Auditório Principal
                         </div>
                         <p class="event-description">Aprenda técnicas avançadas de pesquisa e metodologia científica com especialistas renomados.</p>
-                        <a href="#" class="btn btn-event">Inscrever-se</a>
+                        <a href="@Url.Action("Details", "Evento", new { Id = 5 })" class="btn btn-event">Inscrever-se</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +363,7 @@
                             <i class="fas fa-map-marker-alt me-2 text-muted"></i> Espaço Verde
                         </div>
                         <p class="event-description">Discussões sobre sustentabilidade e meio ambiente no contexto acadêmico e profissional.</p>
-                        <a href="#" class="btn btn-event">Inscrever-se</a>
+                        <a href="@Url.Action("Details", "Evento", new { Id = 11 })" class="btn btn-event">Inscrever-se</a>
                     </div>
                 </div>
             </div>

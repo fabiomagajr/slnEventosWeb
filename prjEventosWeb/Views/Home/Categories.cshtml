@@ -47,7 +47,7 @@
                             <h3 class="mb-2">Palestras</h3>
                             <p>Apresentações de especialistas sobre temas relevantes para o mundo acadêmico.</p>
                             
-                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 1 })" class="btn btn-primary">
+                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 2 })" class="btn btn-primary">
                                 Ver Palestras
                             </a>
                         </div>
@@ -65,7 +65,7 @@
                         <div class="position-absolute bottom-0 start-0 p-4 text-white">
                             <h3 class="mb-2">Workshops</h3>
                             <p>Atividades práticas e interativas para desenvolver habilidades específicas.</p>
-                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 2 })" class="btn btn-primary">
+                            <a href="@Url.Action("Index", "Evento", new { categoriaId = 1 })" class="btn btn-primary">
                                 Ver Workshops
                             </a>
                         </div>
@@ -90,7 +90,7 @@
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Conferências Internacionais</li>
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Simpósios</li>
                 </ul>
-                <a href="#" class="btn btn-event mt-3">Explorar</a>
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 4 })" class="btn btn-event mt-3">Explorar</a>
             </div>
         </div>
         <!-- Feiras Acadêmicas -->
@@ -106,7 +106,7 @@
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Exposições de TCC</li>
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Mostra de Projetos</li>
                 </ul>
-                <a href="#" class="btn btn-event mt-3">Explorar</a>
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 3 })" class="btn btn-event mt-3">Explorar</a>
             </div>
         </div>
         <!-- Cursos -->
@@ -122,7 +122,7 @@
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Minicursos</li>
                     <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Cursos Online</li>
                 </ul>
-                <a href="#" class="btn btn-event mt-3">Explorar</a>
+                <a href="@Url.Action("Index", "Evento", new { categoriaId = 7 })" class="btn btn-event mt-3">Explorar</a>
             </div>
         </div>
     </div>
@@ -132,7 +132,7 @@
     <div class="row g-4">
         <!-- Semanas Acadêmicas -->
         <div class="col-md-3 col-6">
-            <a href="#" class="text-decoration-none">
+            <a href="@Url.Action("Index", "Evento", new { categoriaId = 3 })" class="text-decoration-none">
                 <div class="category-item text-center py-4">
                     <div class="category-icon">
                         <i class="fas fa-calendar-week"></i>
@@ -143,7 +143,7 @@
         </div>
         <!-- Debates -->
         <div class="col-md-3 col-6">
-            <a href="#" class="text-decoration-none">
+            <a href="@Url.Action("Index", "Evento", new { categoriaId = 6 })" class="text-decoration-none">
                 <div class="category-item text-center py-4">
                     <div class="category-icon">
                         <i class="fas fa-comments"></i>
@@ -154,7 +154,7 @@
         </div>
         <!-- Hackathons -->
         <div class="col-md-3 col-6">
-            <a href="#" class="text-decoration-none">
+            <a href="@Url.Action("Index", "Evento", new { categoriaId = 5 })" class="text-decoration-none">
                 <div class="category-item text-center py-4">
                     <div class="category-icon">
                         <i class="fas fa-code"></i>
@@ -165,7 +165,7 @@
         </div>
         <!-- Congressos -->
         <div class="col-md-3 col-6">
-            <a href="#" class="text-decoration-none">
+            <a href="@Url.Action("Index", "Evento", new { categoriaId = 8 })" class="text-decoration-none">
                 <div class="category-item text-center py-4">
                     <div class="category-icon">
                         <i class="fas fa-university"></i>
